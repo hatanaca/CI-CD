@@ -1,0 +1,11 @@
+steps:
+  - uses: actions/checkout@v3
+
+  - name: Comando customizado
+    run: echo "Hello World"
+
+  - name: Script multi-linha
+    run: |
+      npm install
+      npm test
+      npm build
