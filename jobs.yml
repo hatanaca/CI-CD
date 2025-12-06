@@ -1,0 +1,9 @@
+jobs:
+  test:
+    runs-on: unbutu-lates
+    steps: [...]
+
+  build:
+    needs: test
+    runs-on: ubuntu-latest
+    steps: [...]
